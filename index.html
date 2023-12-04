@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <center>
+        <h1>JAVASCRIPT USING CRUD</h1>
+    </center>
+
+    <section class="container">
+        <form autocomplete="off" id="myForm" class="item">
+            <div>
+                <label for="">Enter Name</label>
+                <input type="text" name="name" id="name" placeholder="Full Name" required>
+            </div>
+            <div>
+                <label for="">Enter Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div>
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+        <table class="item">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+            <tbody id="result"></tbody>
+        </table>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
